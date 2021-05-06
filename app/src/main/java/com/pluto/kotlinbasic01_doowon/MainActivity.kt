@@ -11,6 +11,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+////        문법 연습 (변수)
+//
+//        val maName : String     // value : 상수
+//        var myAge : Int         // variable : 변수
+//        //  변수를 만들어봤다.
+
+//        val myName = "허두원"
+//
+//        Log.d("변수값", myName)
+//        clickBtn의 중괄호 안에 있지 않아서 Logcat에 안뜨나?
+//          중괄호 안에 넣어서 실행하니 뜨는것을 확인.
+
         clickBtn.setOnClickListener {
 //            코드에 메모 남기기 - 주석처리
 //            {  } 안에있는 코드만, 버튼이 눌렸을 때 실행된다.
